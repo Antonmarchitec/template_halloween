@@ -1,0 +1,25 @@
+@import "variables";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+    font-weight: $font_weight_Light;
+}
+
+
+
+
+@import "grid_main";
+@import "imagenFlotante";
+@import "grid_header";
+@import "grid_sectionTime";
+@import "grid_sectionVisiting";
+@import "grid_section_paragraph";
+@import "grid_section_paragraphBtn";
+@import "grid_image";
+@import "grid_paranormal";
+@import "grid_discoveries";
+@import "grid_video";
+@import "grid_footer";

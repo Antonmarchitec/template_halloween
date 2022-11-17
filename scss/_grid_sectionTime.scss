@@ -1,0 +1,51 @@
+@import "variables";
+
+
+
+.contSectionTime{
+    margin-top:50px;
+    width: 100%;
+    height: 600px;
+    background:transparent;
+    //background:$color_black;
+    position: relative;
+    .contSectionTime_title{
+        width: 500px;
+        font-size: 80px;
+        font-weight: $font_weight_Black;
+        position: absolute;
+        left: 50px;
+        top: 80px;
+        letter-spacing: -2px;
+        line-height: 80px;
+        color: $color_white;
+    }
+
+    .contSectionTime_time{
+        width: 150px;
+        padding: 5px;
+        position: absolute;
+        bottom: 20px;
+        right: 50px;
+        .contSectionTime_time_text{
+            color: $color_white;
+            font-weight: $font_weight_Light;
+            font-size: 16px;
+            .spFrid{
+                color: $color_green;
+            }
+        }
+
+        .contSectionTime_time_contPro{
+            margin-top: 5px;
+            .iconPro{
+                font-size: 25px;
+                color: $color_white;
+            }
+            .grados{
+                font-size: 25px;
+                color: $color_white;
+            }
+        }
+    }
+}
