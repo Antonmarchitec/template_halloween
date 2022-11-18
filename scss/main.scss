@@ -9,6 +9,25 @@
 }
 
 
+body{
+    scroll-behavior:unset;
+
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background:$color_green;
+    height: 100px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background:rgb(202, 131, 1);
+    height: 150px;
+    
+}
+
 
 
 @import "grid_main";

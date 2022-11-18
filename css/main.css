@@ -6,11 +6,30 @@
   font-weight: 300;
 }
 
+body {
+  scroll-behavior: unset;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ffb300;
+  height: 100px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(202, 131, 1);
+  height: 150px;
+}
+
 .grid_container {
   width: 100%;
   max-width: 1440px;
   padding: 10px 0px;
   background: #010101;
+  overflow: hidden;
   position: relative;
   margin: auto;
   display: grid;
@@ -213,7 +232,7 @@
   font-size: 16px;
 }
 .contSectionTime .contSectionTime_time .contSectionTime_time_text .spFrid {
-  color: #00ee80;
+  color: #ffb300;
 }
 .contSectionTime .contSectionTime_time .contSectionTime_time_contPro {
   margin-top: 5px;
@@ -243,7 +262,7 @@
   margin-top: 5px;
   width: 50px;
   height: 4px;
-  background: #00ee80;
+  background: #ffb300;
   border: none;
   transition: 0.2s linear;
 }
@@ -262,7 +281,7 @@
   padding: 3px 0px;
 }
 .contSectionParagraph_cont .contSectionParagraph_cont_box .iconPara {
-  color: #00ee80;
+  color: #ffb300;
   width: 25px;
   font-size: 18px;
 }
@@ -304,7 +323,7 @@ contSectionParagrBtn_box_button
   margin-left: 130px;
   width: 200px;
   height: 40px;
-  border: 2px solid #00ee80;
+  border: 2px solid #ffb300;
   padding: 8px;
   border-radius: 40px;
   background: transparent;
@@ -314,7 +333,7 @@ contSectionParagrBtn_box_button
 }
 .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_button .icon {
   margin-left: 25px;
-  color: #00ee80;
+  color: #ffb300;
   transform: translateX(-50px);
   transition: 0.1s linear;
   transition-delay: 0.3s;
@@ -360,7 +379,7 @@ contParanormal_paraph
   width: 50px;
   border: none;
   height: 5px;
-  background: #00ee80;
+  background: #ffb300;
   transition: 0.2s linear;
 }
 .contParanormal .contParanormal_paraph {
@@ -394,7 +413,7 @@ contDiscoveries_btn
   width: 50px;
   height: 5px;
   border: none;
-  background: #00ee80;
+  background: #ffb300;
   transition: 0.2s linear;
 }
 .contDiscoveries .contDiscoveries_paragraph {
@@ -405,7 +424,7 @@ contDiscoveries_btn
   margin-top: 30px;
   width: 200px;
   height: 40px;
-  border: 2px solid #00ee80;
+  border: 2px solid #ffb300;
   padding: 8px;
   border-radius: 40px;
   background: transparent;
@@ -415,7 +434,7 @@ contDiscoveries_btn
 }
 .contDiscoveries .contDiscoveries_btn .icon {
   margin-left: 25px;
-  color: #00ee80;
+  color: #ffb300;
   transform: translateX(-50px);
   transition: 0.1s linear;
   transition-delay: 0.3s;
