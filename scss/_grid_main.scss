@@ -109,7 +109,7 @@
         padding: 10px 0px;
         background: $color_black;
         background: brown;
-        overflow: hidden;
+        overflow: initial;
         position: relative;
         margin: auto;
         display: grid;
@@ -151,14 +151,12 @@
             padding: 10px 0px;
             background:grey;
             grid-area: grid_section_paragraph;
-            display:none;
         }
     
         .grid_section_paragraphBtn{
             padding: 10px 0px;
             background:grey;
             grid-area: grid_section_paragraphBtn;
-            display:none;
         }
     
         .grid_image{

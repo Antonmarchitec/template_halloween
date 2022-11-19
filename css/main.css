@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 10px 0px;
     background: #010101;
     background: brown;
-    overflow: hidden;
+    overflow: initial;
     position: relative;
     margin: auto;
     display: grid;
@@ -126,13 +126,11 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 10px 0px;
     background: grey;
     grid-area: grid_section_paragraph;
-    display: none;
   }
   .grid_container .grid_section_paragraphBtn {
     padding: 10px 0px;
     background: grey;
     grid-area: grid_section_paragraphBtn;
-    display: none;
   }
   .grid_container .grid_image {
     margin-top: -100px;
@@ -506,6 +504,21 @@ body::-webkit-scrollbar-thumb:hover {
   width: 200px;
 }
 
+@media (min-width: 320px) and (max-width: 423px) {
+  .contSectionVisiting {
+    width: 100%;
+    padding: 50px 15px;
+    background: #010101;
+    position: relative;
+    z-index: 10;
+  }
+  .contSectionVisiting .contSectionVisiting_title {
+    width: 90%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 28px;
+  }
+}
 .contSectionParagraph_cont {
   width: 100%;
   padding: 20px 50px;
@@ -526,6 +539,27 @@ body::-webkit-scrollbar-thumb:hover {
   font-style: oblique;
 }
 
+@media (min-width: 320px) and (max-width: 423px) {
+  .contSectionParagraph_cont {
+    width: 100%;
+    padding: 30px 15px;
+    background: #010101;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box {
+    width: 100%;
+    padding: 3px 0px;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box .iconPara {
+    color: #ffb300;
+    width: 25px;
+    font-size: 18px;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box .spanVisit {
+    color: #adadad;
+    font-weight: 300;
+    font-style: oblique;
+  }
+}
 /*
 contSectionParagrBtn
 contSectionParagrBtn_box
@@ -538,15 +572,15 @@ contSectionParagrBtn_box_button
 */
 .contSectionParagrBtn {
   width: 100%;
-  padding: 20px 50px;
+  padding: 20px 15px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
   background: #010101;
 }
 .contSectionParagrBtn .contSectionParagrBtn_box {
-  width: 48%;
+  width: 100%;
   padding: 5px 0px;
 }
 .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_text {
@@ -569,14 +603,14 @@ contSectionParagrBtn_box_button
 .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_button .icon {
   margin-left: 25px;
   color: #ffb300;
-  transform: translateX(-50px);
+  transform: translateX(0px);
   transition: 0.1s linear;
   transition-delay: 0.3s;
-  opacity: 0;
+  opacity: 1;
 }
 .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_button:hover {
   width: 200px;
-  height: 60px;
+  height: 40px;
 }
 .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_button:hover .icon {
   transform: translateX(0px);

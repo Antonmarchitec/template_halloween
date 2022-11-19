@@ -30,3 +30,30 @@
     } 
 }
 
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .contSectionVisiting{
+        width: 100%;
+        padding: 50px 15px;
+        background:$color_black;
+        position: relative;
+        z-index: 10;
+        .contSectionVisiting_title{
+            width: 90%;
+            color: $color_white;
+            font-weight: $font_weight_SemiBold;
+            font-size:$font_size_subtitle_movil;
+        }
+    
+    }
+    
+}
