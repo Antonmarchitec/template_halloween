@@ -55,3 +55,64 @@
         }
     }
 }
+
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .contSectionTime{
+        margin-top:initial;
+        width: 100%;
+        height: 500px;
+        background:transparent;
+        background:$color_black;
+        position: relative;
+        .contSectionTime_title{
+            width: 100%;
+            font-size: 50px;
+            font-weight: $font_weight_Black;
+            position: absolute;
+            left: 0px;
+            top: 90px;
+            letter-spacing: -2px;
+            line-height: 60px;
+            color: $color_white;
+            text-align:  center;
+            //ANIMATE CSS
+            //animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+            //animation-duration: 2s; /* don't forget to set a duration! */   
+            
+        }
+    
+    
+        .contSectionTime_time{
+            width: 150px;
+            padding: 5px;
+            position: absolute;
+            bottom: 20px;
+            right: 15px;
+            .contSectionTime_time_text{
+                color: $color_white;
+                font-weight: $font_weight_Light;
+                font-size: 16px;
+                .spFrid{
+                    color: $color_green;
+                    font-size: 16px;
+
+                }
+            }
+    
+            .contSectionTime_time_contPro{
+                margin-top: 5px;
+                .iconPro{
+                    font-size: 25px;
+                    color: $color_white;
+                }
+                .grados{
+                    font-size: 25px;
+                    color: $color_white;
+                }
+            }
+        }
+    }
+}

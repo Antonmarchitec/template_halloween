@@ -36,18 +36,12 @@ body::-webkit-scrollbar-thumb:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 1em;
-  grid-template-areas: "grid_header                grid_header                 grid_header" "grid_banner                grid_banner                 grid_banner" "grid_sectionTime           grid_sectionTime            grid_sectionTime" "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting" "grid_section_paragraph     grid_section_paragraphBtn   grid_section_paragraphBtn" "grid_image                 grid_paranormal             grid_paranormal" "grid_discoveries           grid_video                  grid_video" "grid_footer                grid_footer                 grid_footer";
+  grid-template-areas: "grid_header                grid_header                 grid_header" "grid_sectionTime           grid_sectionTime            grid_sectionTime" "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting" "grid_section_paragraph     grid_section_paragraphBtn   grid_section_paragraphBtn" "grid_image                 grid_paranormal             grid_paranormal" "grid_discoveries           grid_video                  grid_video" "grid_footer                grid_footer                 grid_footer";
 }
 .grid_container .grid_header {
   padding: 10px 0px;
   background: #010101;
   grid-area: grid_header;
-}
-.grid_container .grid_banner {
-  margin-top: 90px;
-  padding: 10px 0px;
-  background: #010101;
-  grid-area: grid_banner;
 }
 .grid_container .grid_sectionTime {
   padding: 10px 0px;
@@ -96,6 +90,82 @@ body::-webkit-scrollbar-thumb:hover {
   grid-area: grid_footer;
 }
 
+@media (min-width: 320px) and (max-width: 423px) {
+  .grid_container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px 0px;
+    background: #010101;
+    background: brown;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 5px;
+    grid-template-areas: "grid_header" "grid_sectionTime" "grid_sectionVisiting" "grid_section_paragraph" "grid_section_paragraphBtn" "grid_image" "grid_paranormal" "grid_video" "grid_discoveries" "grid_footer";
+  }
+  .grid_container .grid_header {
+    padding: 10px 0px;
+    height: 83px;
+    background: rgb(128, 128, 128);
+    grid-area: grid_header;
+  }
+  .grid_container .grid_sectionTime {
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_sectionTime;
+  }
+  .grid_container .grid_sectionVisiting {
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_sectionVisiting;
+  }
+  .grid_container .grid_section_paragraph {
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_section_paragraph;
+    display: none;
+  }
+  .grid_container .grid_section_paragraphBtn {
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_section_paragraphBtn;
+    display: none;
+  }
+  .grid_container .grid_image {
+    margin-top: -100px;
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_image;
+    display: none;
+  }
+  .grid_container .grid_paranormal {
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_paranormal;
+    display: none;
+  }
+  .grid_container .grid_discoveries {
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_discoveries;
+    display: none;
+  }
+  .grid_container .grid_video {
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_video;
+    display: none;
+  }
+  .grid_container .grid_footer {
+    padding: 10px 0px;
+    background: grey;
+    grid-area: grid_footer;
+    display: none;
+  }
+}
 .imagenFlotante {
   width: 100%;
   padding: 0px;
@@ -104,6 +174,11 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: 0;
 }
 
+@media (min-width: 320px) and (max-width: 423px) {
+  .imagenFlotante {
+    display: none;
+  }
+}
 .contHeader {
   width: 100%;
   padding: 10px 30px;
@@ -201,6 +276,117 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: 10;
 }
 
+@media (min-width: 320px) and (max-width: 720px) {
+  .contHeader {
+    width: 100%;
+    padding: 10px 0px;
+    background: #010101;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 30;
+  }
+  .contHeader .contHeader_logo {
+    font-size: initial;
+    margin-left: 15px;
+  }
+  .contHeader .contHeader_logo .contHeader_logo_text {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Kolker Brush", cursive;
+  }
+  .contHeader .contHeader_logo .contHeader_logo_text .textLogo {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: "Kolker Brush", cursive;
+  }
+  .contHeader .contHeader__ul {
+    width: 290px;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 85px;
+    right: -100%;
+    background: #010101;
+  }
+  .contHeader .contHeader__ul .contHeader__ul_li_active {
+    width: 100%;
+    padding: 10px 0px;
+    text-align: start;
+    list-style: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+  }
+  .contHeader .contHeader__ul .contHeader__ul_li_active .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .contHeader .contHeader__ul .contHeader__ul_li_active .link:hover {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .contHeader .contHeader__ul .contHeader__ul_li {
+    width: 100%;
+    padding: 10px 0px;
+    text-align: start;
+    list-style: none;
+    transition: 0.3s all ease;
+    margin-bottom: 20px;
+  }
+  .contHeader .contHeader__ul .contHeader__ul_li .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .contHeader .contHeader__ul .contHeader__ul_li:hover {
+    border-bottom: 2px solid white;
+  }
+  .contHeader .contHeader__ul .contHeader__ul_li:hover .link {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .contHeader .contHeader_btnResponsive {
+    width: initial;
+    height: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    display: block;
+    margin-right: 15px;
+  }
+  .contHeader .contHeader_btnResponsive .iconResponsive {
+    color: #ffb300;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .contHeader_JS {
+    background: rgba(0, 0, 0, 0.888);
+  }
+
+  .linea {
+    margin: 80px auto;
+    width: 80%;
+    height: 1.5px;
+    border: none;
+    background: #010101;
+    position: relative;
+    z-index: 10;
+  }
+}
 .contSectionTime {
   margin-top: 50px;
   width: 100%;
@@ -246,6 +432,55 @@ body::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 
+@media (min-width: 320px) and (max-width: 423px) {
+  .contSectionTime {
+    margin-top: initial;
+    width: 100%;
+    height: 500px;
+    background: transparent;
+    background: #010101;
+    position: relative;
+  }
+  .contSectionTime .contSectionTime_title {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    letter-spacing: -2px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .contSectionTime .contSectionTime_time {
+    width: 150px;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_text {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_text .spFrid {
+    color: #ffb300;
+    font-size: 16px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro {
+    margin-top: 5px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro .iconPro {
+    font-size: 25px;
+    color: #ffffff;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro .grados {
+    font-size: 25px;
+    color: #ffffff;
+  }
+}
 .contSectionVisiting {
   width: 100%;
   padding: 30px 50px;
