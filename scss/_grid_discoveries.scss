@@ -1,13 +1,5 @@
 @import "variables";
 
-/*
-contDiscoveries
-contDiscoveries_title
-lineDis
-contDiscoveries_paragraph
-contDiscoveries_btn
-*/
-
 
 .contDiscoveries{
     width: 100%;
@@ -69,4 +61,69 @@ contDiscoveries_btn
     .lineDis{
         width: 200px;
     }
+}
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .contDiscoveries{
+        width: 100%;
+        padding: 50px 15px;
+        background: $color_black;
+        .contDiscoveries_title{
+            color: $color_white;
+            font-weight: $font_weight_SemiBold;
+            font-size: $font_size_subtitle_movil;
+        }
+
+    
+        .contDiscoveries_paragraph{
+            margin-top: 25px;
+            color: $color_grey;
+            text-align: justify;
+        }
+    
+        .contDiscoveries_btn{
+                margin-top: 30px;
+                width: 200px;
+                height: 40px;
+                border: 2px solid $color_green;
+                padding: 8px;
+                border-radius: 40px;
+                background: transparent;
+                color: $color_white;
+                cursor: pointer;
+                transition: 0.3s all;
+                .icon{
+                    margin-left: 25px;
+                    color: $color_green;
+                    transform: translateX(-5px);
+                    transition: 0.1s linear;
+                    transition-delay: initial;
+                    opacity: 1;
+        
+                }
+        }
+    
+        .contDiscoveries_btn:hover{
+            width: 200px;
+            height: 40px;
+            .icon{
+                transform: translateX(5px);
+                opacity: 1;
+            }
+        }
+    }
+    
+    .contDiscoveries:hover{
+        .lineDis{
+            width: 200px;
+        }
+    }
+    
 }

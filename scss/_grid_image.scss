@@ -10,3 +10,15 @@ contImage
     padding-left: 50px;
     background: $color_black;
 }
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .contImage{
+        width: 100%;
+        height: initial;
+        padding-left: initial;
+        background: $color_black;
+    }
+     
+}

@@ -98,17 +98,12 @@
 
 
 
-
-
-
-
 @media (min-width:320px) and (max-width:423px){
     .grid_container{
         width: 100%;
         max-width: 1440px;
         padding: 10px 0px;
         background: $color_black;
-        background: brown;
         overflow: initial;
         position: relative;
         margin: auto;
@@ -131,68 +126,64 @@
         .grid_header{
             padding: 10px 0px;
             height: 83px;
-            background:rgb(128, 128, 128);
+            //background:rgb(128, 128, 128);
             grid-area: grid_header;
         }
     
         .grid_sectionTime{
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_sectionTime;
         }
     
         .grid_sectionVisiting{
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_sectionVisiting;
         }
     
         .grid_section_paragraph{
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_section_paragraph;
         }
     
         .grid_section_paragraphBtn{
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_section_paragraphBtn;
         }
     
         .grid_image{
-            margin-top: -100px;
+            margin-top:initial;
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_image;
-            display:none;
+            
         }
     
         .grid_paranormal{
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_paranormal;
-            display:none;
         }
     
         .grid_discoveries{
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_discoveries;
-            display:none;
         }
     
         .grid_video{
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_video;
-            display:none;
         }
     
         .grid_footer{
             padding: 10px 0px;
-            background:grey;
+            //background:grey;
             grid-area: grid_footer;
-            display:none;
         }
     
     }
