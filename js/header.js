@@ -3,10 +3,10 @@ let contHeader = document.getElementById("contHeader")
 
 document.addEventListener("scroll", () =>{
     let posScroll = document.documentElement.scrollTop
-    console.log(posScroll)
+    //console.log(posScroll)
 
     let posHeader = contHeader.offsetTop
-    console.log(posHeader)
+    //console.log(posHeader)
 
     if(posScroll > posHeader + 100){
         contHeader.classList.add("contHeader_JS")
