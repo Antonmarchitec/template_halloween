@@ -11,6 +11,9 @@
     <!--HAMBURGUERS CSS-->
     <link rel="stylesheet" href="./css/hamburgers.css">
 
+    <!--PRELOADER CSS-->
+    <link rel="stylesheet" href="./css/preloader.css">
+
     <!--VIDEO.JS CDN-->
     <link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/video.css">
@@ -43,6 +46,29 @@
 </head>
 <body>
     <main class="grid_container" >
+
+        <!--PRELOADER-->
+        <div class="contPreloader" id="contPreloader">
+            <div class="cssload-dots">
+                <div class="cssload-dot"></div>
+                <div class="cssload-dot"></div>
+                <div class="cssload-dot"></div>
+                <div class="cssload-dot"></div>
+                <div class="cssload-dot"></div>
+            </div>
+            
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" ></feGaussianBlur>
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0	0 1 0 0 0	0 0 1 0 0	0 0 0 18 -7" result="goo" ></feColorMatrix>
+                        <!--<feBlend in2="goo" in="SourceGraphic" result="mix" ></feBlend>-->
+                    </filter>
+                </defs>
+            </svg>
+
+            <h2 class="text"> Cargando.. </h2>
+        </div>
 
         <div class="imagenFlotante">
             <video autoplay muted loop
@@ -259,7 +285,7 @@
     <!--PERSONALIZADOS JS-->
     <script src="./js/header.js"></script>
     <script src="./js/btnTop.js"></script>
-
+    <script src="./js/preloader.js"></script>
 
     <!--HAMBURGUERS JS-->
     <script src="./js/hamburguers.js"></script>
