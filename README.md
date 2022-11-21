@@ -19,7 +19,7 @@
 - Template Halloween.
 
 ## Descripción del proyecto:
-Plantilla informativa con una temática de Halloween desarrollada con HTML, CSS y JS. Cuenta con un menú de navegación, botones, video integrado, scrooll personalizado y distintas secciones, es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.
+Plantilla informativa con temática de Halloween desarrollada con HTML, CSS y JS. Cuenta con un menú de navegación, botones, video integrado, scrooll personalizado y distintas secciones, es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.
 
 ## Diseño responsivo:
 - Desktop: 1440px
