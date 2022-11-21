@@ -27,6 +27,75 @@
 
 
 
+
+
+
+
+@media (min-width:1025px) and (max-width:1200px){
+    .contSectionParagraph_cont{
+        width: 100%;
+        padding: 90px 50px;
+        background: $color_black;
+        position: relative;
+        z-index: 10;
+        .contSectionParagraph_cont_box{
+            width: 100%;
+            padding: 3px 0px;
+            .iconPara{
+                color: $color_green;
+                width: 25px;
+                font-size: 18px;
+            }
+        
+            .spanVisit{
+                color: $color_grey;
+                font-weight: $font_weight_Light;
+                font-style: oblique;
+            }
+        }
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width:320px) and (max-width:423px){
     .contSectionParagraph_cont{
         width: 100%;
