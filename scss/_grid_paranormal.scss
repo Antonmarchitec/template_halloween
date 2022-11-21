@@ -35,7 +35,101 @@
 
 
 
-@media (min-width:320px) and (max-width:423px){
+
+
+@media (min-width:900px)  and (max-width:1024px){
+    .contParanormal{
+        width: 100%;
+        padding: 20px 50px;
+        background: $color_black;
+        .contParanormal_title{
+            color: $color_white;
+            font-weight: $font_weight_SemiBold;
+            font-size: $font_size_subtitle;
+        }
+    
+        .linePara{
+            margin-top: 5px;
+            width: 50px;
+            border: none;
+            height: 5px;
+            background: $color_green;
+            transition: 0.2s linear;
+        }
+    
+        .contParanormal_paraph{
+            margin-top: 30px;
+            color: $color_grey;
+        }
+    }
+}
+
+
+
+@media (min-width:770px)  and (max-width:899px){
+    .contParanormal{
+        width: 100%;
+        padding: 20px 50px;
+        background: $color_black;
+        .contParanormal_title{
+            width: 400px;
+            color: $color_white;
+            font-weight: $font_weight_SemiBold;
+            font-size: 30px;
+        }
+    
+        .linePara{
+            margin-top: 5px;
+            width: 50px;
+            border: none;
+            height: 5px;
+            background: $color_green;
+            transition: 0.2s linear;
+        }
+    
+        .contParanormal_paraph{
+            margin-top: 30px;
+            color: $color_grey;
+        }
+    }
+}
+
+
+
+
+
+@media (min-width:481px)  and (max-width:640px){
+    .contParanormal{
+        width: 100%;
+        padding:20px;
+        background: $color_black;
+        .contParanormal_title{
+            width: 350px;
+            color: $color_white;
+            font-weight: $font_weight_SemiBold;
+            font-size: 30px;
+        }
+    
+        .linePara{
+            margin-top: 5px;
+            width: 50px;
+            border: none;
+            height: 5px;
+            background: $color_green;
+            transition: 0.2s linear;
+        }
+    
+        .contParanormal_paraph{
+            margin-top: 30px;
+            color: $color_grey;
+        }
+    }
+}
+
+
+
+
+@media (min-width:320px) and (max-width:480px){
     .contParanormal{
         width: 100%;
         padding: 50px 15px;

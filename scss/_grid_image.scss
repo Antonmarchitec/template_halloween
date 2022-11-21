@@ -13,17 +13,45 @@ contImage
 
 
 
+@media (min-width:900px)  and (max-width:1024px){
+    .contImage{
+        width: 100%;
+        height: 300px;
+        padding-left: 50px;
+        background: $color_black;
+    }
+}
+
+
+
+
+@media (min-width:770px)  and (max-width:899px){
+    .contImage{
+        width: 100%;
+        height: auto;
+        padding:0px 50px;
+        background: $color_black;
+    }
+}
+
+
+
+
+@media (min-width:481px)  and (max-width:640px){
+    .contImage{
+        width: 100%;
+        height: auto;
+        padding:0px 10px;
+        background: $color_black;
+    }
+}
 
 
 
 
 
 
-
-
-
-
-@media (min-width:320px) and (max-width:423px){
+@media (min-width:320px) and (max-width:480px){
     .contImage{
         width: 100%;
         height: initial;

@@ -128,13 +128,175 @@
 
 
 
+@media (min-width:900px)  and (max-width:1024px){
+    .grid_container{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        background: $color_black;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 1em;
+        grid-template-areas: 
+            "grid_header                grid_header                 grid_header"
+            "grid_sectionTime           grid_sectionTime            grid_sectionTime"
+            "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting"
+            "grid_image                 grid_section_paragraphBtn   grid_section_paragraphBtn"
+            "grid_paranormal            grid_paranormal             grid_section_paragraph"
+            "grid_video                 grid_video                  grid_video"
+            "grid_discoveries           grid_discoveries            grid_discoveries"
+            "grid_footer                grid_footer                 grid_footer"
+            ;
+
+
+            .grid_image{
+                margin-top: initial;
+                padding: 40px 0px;
+                background:$color_black;
+                grid-area: grid_image;
+            }
+    
+    } 
+}
 
 
 
 
 
 
-@media (min-width:320px) and (max-width:423px){
+@media (min-width:770px)  and (max-width:899px){
+    .grid_container{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        background: $color_black;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 1em;
+        grid-template-areas: 
+            "grid_header                grid_header                 grid_header"
+            "grid_sectionTime           grid_sectionTime            grid_sectionTime"
+            "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting"
+            "grid_section_paragraphBtn  grid_section_paragraphBtn   grid_section_paragraphBtn"
+            "grid_image                 grid_image                  grid_section_paragraph"
+            "grid_paranormal            grid_paranormal             grid_paranormal"
+            "grid_video                 grid_video                  grid_video"
+            "grid_discoveries           grid_discoveries            grid_discoveries"
+            "grid_footer                grid_footer                 grid_footer"
+            ;
+
+
+            .grid_image{
+                margin-top: initial;
+                padding: 40px 0px;
+                background:$color_black;
+                grid-area: grid_image;
+            }
+    
+    } 
+}
+
+
+
+
+
+
+
+@media (min-width:641px)  and (max-width:769px){
+    .grid_container{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        background: $color_black;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 1em;
+        grid-template-areas: 
+            "grid_header                grid_header                 grid_header"
+            "grid_sectionTime           grid_sectionTime            grid_sectionTime"
+            "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting"
+            "grid_section_paragraphBtn  grid_section_paragraphBtn   grid_section_paragraphBtn"
+            "grid_image                 grid_image                  grid_section_paragraph"
+            "grid_paranormal            grid_paranormal             grid_paranormal"
+            "grid_video                 grid_video                  grid_video"
+            "grid_discoveries           grid_discoveries            grid_discoveries"
+            "grid_footer                grid_footer                 grid_footer"
+            ;
+
+
+            .grid_image{
+                margin-top: initial;
+                padding: 40px 0px;
+                background:$color_black;
+                grid-area: grid_image;
+            }
+    
+    } 
+}
+
+
+
+
+
+
+
+
+@media (min-width:481px)  and (max-width:640px){
+    .grid_container{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        background: $color_black;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 5px;
+        grid-template-areas: 
+            "grid_header                grid_header                 grid_header"
+            "grid_sectionTime           grid_sectionTime            grid_sectionTime"
+            "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting"
+            "grid_section_paragraphBtn  grid_section_paragraphBtn   grid_section_paragraphBtn"
+            "grid_image                 grid_image                  grid_section_paragraph"
+            "grid_paranormal            grid_paranormal             grid_paranormal"
+            "grid_video                 grid_video                  grid_video"
+            "grid_discoveries           grid_discoveries            grid_discoveries"
+            "grid_footer                grid_footer                 grid_footer"
+            ;
+
+
+            .grid_image{
+                margin-top: initial;
+                padding: 40px 0px;
+                background:$color_black;
+                grid-area: grid_image;
+            }
+    
+    } 
+}
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:480px){
     .grid_container{
         width: 100%;
         max-width: 1440px;

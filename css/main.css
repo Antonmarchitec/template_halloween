@@ -112,7 +112,95 @@ body::-webkit-scrollbar-thumb:hover {
     grid-area: grid_image;
   }
 }
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 900px) and (max-width: 1024px) {
+  .grid_container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px 0px;
+    background: #010101;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    grid-template-areas: "grid_header                grid_header                 grid_header" "grid_sectionTime           grid_sectionTime            grid_sectionTime" "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting" "grid_image                 grid_section_paragraphBtn   grid_section_paragraphBtn" "grid_paranormal            grid_paranormal             grid_section_paragraph" "grid_video                 grid_video                  grid_video" "grid_discoveries           grid_discoveries            grid_discoveries" "grid_footer                grid_footer                 grid_footer";
+  }
+  .grid_container .grid_image {
+    margin-top: initial;
+    padding: 40px 0px;
+    background: #010101;
+    grid-area: grid_image;
+  }
+}
+@media (min-width: 770px) and (max-width: 899px) {
+  .grid_container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px 0px;
+    background: #010101;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    grid-template-areas: "grid_header                grid_header                 grid_header" "grid_sectionTime           grid_sectionTime            grid_sectionTime" "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting" "grid_section_paragraphBtn  grid_section_paragraphBtn   grid_section_paragraphBtn" "grid_image                 grid_image                  grid_section_paragraph" "grid_paranormal            grid_paranormal             grid_paranormal" "grid_video                 grid_video                  grid_video" "grid_discoveries           grid_discoveries            grid_discoveries" "grid_footer                grid_footer                 grid_footer";
+  }
+  .grid_container .grid_image {
+    margin-top: initial;
+    padding: 40px 0px;
+    background: #010101;
+    grid-area: grid_image;
+  }
+}
+@media (min-width: 641px) and (max-width: 769px) {
+  .grid_container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px 0px;
+    background: #010101;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    grid-template-areas: "grid_header                grid_header                 grid_header" "grid_sectionTime           grid_sectionTime            grid_sectionTime" "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting" "grid_section_paragraphBtn  grid_section_paragraphBtn   grid_section_paragraphBtn" "grid_image                 grid_image                  grid_section_paragraph" "grid_paranormal            grid_paranormal             grid_paranormal" "grid_video                 grid_video                  grid_video" "grid_discoveries           grid_discoveries            grid_discoveries" "grid_footer                grid_footer                 grid_footer";
+  }
+  .grid_container .grid_image {
+    margin-top: initial;
+    padding: 40px 0px;
+    background: #010101;
+    grid-area: grid_image;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .grid_container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px 0px;
+    background: #010101;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    grid-template-areas: "grid_header                grid_header                 grid_header" "grid_sectionTime           grid_sectionTime            grid_sectionTime" "grid_sectionVisiting       grid_sectionVisiting        grid_sectionVisiting" "grid_section_paragraphBtn  grid_section_paragraphBtn   grid_section_paragraphBtn" "grid_image                 grid_image                  grid_section_paragraph" "grid_paranormal            grid_paranormal             grid_paranormal" "grid_video                 grid_video                  grid_video" "grid_discoveries           grid_discoveries            grid_discoveries" "grid_footer                grid_footer                 grid_footer";
+  }
+  .grid_container .grid_image {
+    margin-top: initial;
+    padding: 40px 0px;
+    background: #010101;
+    grid-area: grid_image;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .grid_container {
     width: 100%;
     max-width: 1440px;
@@ -178,12 +266,12 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: 0;
 }
 
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 320px) and (max-width: 640px) {
   .imagenFlotante {
     display: none;
   }
 }
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 320px) and (max-width: 640px) {
   .imagenFlotanteMovil {
     width: 100%;
     height: 700px;
@@ -291,7 +379,7 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: 10;
 }
 
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 900px) {
   .contHeader {
     width: 100%;
     padding: 10px 0px;
@@ -448,7 +536,99 @@ body::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 641px) and (max-width: 899px) {
+  .contSectionTime {
+    margin-top: 50px;
+    width: 100%;
+    height: 480px;
+    background: transparent;
+    position: relative;
+  }
+  .contSectionTime .contSectionTime_title {
+    width: 500px;
+    font-size: 60px;
+    font-weight: 900;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    letter-spacing: -2px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .contSectionTime .contSectionTime_time {
+    width: 150px;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_text {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_text .spFrid {
+    color: #ffb300;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro {
+    margin-top: 5px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro .iconPro {
+    font-size: 25px;
+    color: #ffffff;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro .grados {
+    font-size: 25px;
+    color: #ffffff;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .contSectionTime {
+    margin-top: 50px;
+    width: 100%;
+    height: 480px;
+    background: transparent;
+    position: relative;
+  }
+  .contSectionTime .contSectionTime_title {
+    width: 380px;
+    font-size: 60px;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    letter-spacing: -2px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .contSectionTime .contSectionTime_time {
+    width: 150px;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_text {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_text .spFrid {
+    color: #ffb300;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro {
+    margin-top: 5px;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro .iconPro {
+    font-size: 25px;
+    color: #ffffff;
+  }
+  .contSectionTime .contSectionTime_time .contSectionTime_time_contPro .grados {
+    font-size: 25px;
+    color: #ffffff;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .contSectionTime {
     margin-top: initial;
     width: 100%;
@@ -458,7 +638,8 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .contSectionTime .contSectionTime_title {
     width: 100%;
-    font-size: 50px;
+    padding: 0px 10px;
+    font-size: 48px;
     font-weight: 900;
     position: absolute;
     left: 0px;
@@ -466,7 +647,6 @@ body::-webkit-scrollbar-thumb:hover {
     letter-spacing: -2px;
     line-height: 45px;
     color: rgb(255, 255, 255);
-    text-align: center;
   }
   .contSectionTime .contSectionTime_time {
     width: 150px;
@@ -521,7 +701,75 @@ body::-webkit-scrollbar-thumb:hover {
   width: 200px;
 }
 
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 900px) and (max-width: 1024px) {
+  .contSectionVisiting {
+    width: 100%;
+    padding: 30px 50px;
+    background: #010101;
+    position: relative;
+    z-index: 10;
+  }
+  .contSectionVisiting .contSectionVisiting_title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .contSectionVisiting .lineTitle {
+    margin-top: 5px;
+    width: 50px;
+    height: 4px;
+    background: #ffb300;
+    border: none;
+    transition: 0.2s linear;
+  }
+}
+@media (min-width: 770px) and (max-width: 899px) {
+  .contSectionVisiting {
+    width: 100%;
+    padding: 30px 50px;
+    background: #010101;
+    position: relative;
+    z-index: 10;
+  }
+  .contSectionVisiting .contSectionVisiting_title {
+    width: 400px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .contSectionVisiting .lineTitle {
+    margin-top: 5px;
+    width: 50px;
+    height: 4px;
+    background: #ffb300;
+    border: none;
+    transition: 0.2s linear;
+  }
+}
+@media (min-width: 481px) and (max-width: 669px) {
+  .contSectionVisiting {
+    width: 100%;
+    padding: 30px 20px;
+    background: #010101;
+    position: relative;
+    z-index: 10;
+  }
+  .contSectionVisiting .contSectionVisiting_title {
+    width: 350px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .contSectionVisiting .lineTitle {
+    margin-top: 5px;
+    width: 50px;
+    height: 4px;
+    background: #ffb300;
+    border: none;
+    transition: 0.2s linear;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .contSectionVisiting {
     width: 100%;
     padding: 50px 15px;
@@ -581,7 +829,56 @@ body::-webkit-scrollbar-thumb:hover {
     font-style: oblique;
   }
 }
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 641px) and (max-width: 769px) {
+  .contSectionParagraph_cont {
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 0px;
+    background: #010101;
+    position: relative;
+    z-index: 10;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box {
+    width: 100%;
+    padding: 3px 0px;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box .iconPara {
+    color: #ffb300;
+    width: 25px;
+    font-size: 18px;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box .spanVisit {
+    color: #adadad;
+    font-weight: 300;
+    font-style: oblique;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .contSectionParagraph_cont {
+    width: 100%;
+    padding: 20px;
+    background: #010101;
+    position: relative;
+    z-index: 10;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box {
+    width: 100%;
+    padding: 3px 0px;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box .iconPara {
+    color: #ffb300;
+    width: 25px;
+    font-size: 16px;
+  }
+  .contSectionParagraph_cont .contSectionParagraph_cont_box .spanVisit {
+    color: #adadad;
+    font-weight: 300;
+    font-style: oblique;
+    font-size: 14px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .contSectionParagraph_cont {
     width: 100%;
     padding: 5px 15px;
@@ -651,7 +948,57 @@ body::-webkit-scrollbar-thumb:hover {
   opacity: 1;
 }
 
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 481px) and (max-width: 640px) {
+  .contSectionParagrBtn {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #010101;
+    position: relative;
+    z-index: 10;
+  }
+  .contSectionParagrBtn .contSectionParagrBtn_box {
+    width: 48%;
+    padding: 5px 0px;
+  }
+  .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_text {
+    color: #adadad;
+    text-align: justify;
+  }
+  .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_button {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 180px;
+    height: 40px;
+    border: 2px solid #ffb300;
+    padding: 8px;
+    border-radius: 40px;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+  .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_button .icon {
+    margin-left: 25px;
+    color: #ffb300;
+    transform: translateX(-50px);
+    transition: 0.1s linear;
+    transition-delay: 0.3s;
+    opacity: 0;
+  }
+  .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_button:hover {
+    width: 200px;
+    height: 60px;
+  }
+  .contSectionParagrBtn .contSectionParagrBtn_box .contSectionParagrBtn_box_button:hover .icon {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .contSectionParagrBtn {
     width: 100%;
     padding: 20px 15px;
@@ -709,7 +1056,31 @@ contImage
   background: #010101;
 }
 
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 900px) and (max-width: 1024px) {
+  .contImage {
+    width: 100%;
+    height: 300px;
+    padding-left: 50px;
+    background: #010101;
+  }
+}
+@media (min-width: 770px) and (max-width: 899px) {
+  .contImage {
+    width: 100%;
+    height: auto;
+    padding: 0px 50px;
+    background: #010101;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .contImage {
+    width: 100%;
+    height: auto;
+    padding: 0px 10px;
+    background: #010101;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .contImage {
     width: 100%;
     height: initial;
@@ -744,7 +1115,81 @@ contImage
   width: 200px;
 }
 
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 900px) and (max-width: 1024px) {
+  .contParanormal {
+    width: 100%;
+    padding: 20px 50px;
+    background: #010101;
+  }
+  .contParanormal .contParanormal_title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .contParanormal .linePara {
+    margin-top: 5px;
+    width: 50px;
+    border: none;
+    height: 5px;
+    background: #ffb300;
+    transition: 0.2s linear;
+  }
+  .contParanormal .contParanormal_paraph {
+    margin-top: 30px;
+    color: #adadad;
+  }
+}
+@media (min-width: 770px) and (max-width: 899px) {
+  .contParanormal {
+    width: 100%;
+    padding: 20px 50px;
+    background: #010101;
+  }
+  .contParanormal .contParanormal_title {
+    width: 400px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .contParanormal .linePara {
+    margin-top: 5px;
+    width: 50px;
+    border: none;
+    height: 5px;
+    background: #ffb300;
+    transition: 0.2s linear;
+  }
+  .contParanormal .contParanormal_paraph {
+    margin-top: 30px;
+    color: #adadad;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .contParanormal {
+    width: 100%;
+    padding: 20px;
+    background: #010101;
+  }
+  .contParanormal .contParanormal_title {
+    width: 350px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .contParanormal .linePara {
+    margin-top: 5px;
+    width: 50px;
+    border: none;
+    height: 5px;
+    background: #ffb300;
+    transition: 0.2s linear;
+  }
+  .contParanormal .contParanormal_paraph {
+    margin-top: 30px;
+    color: #adadad;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .contParanormal {
     width: 100%;
     padding: 50px 15px;
@@ -873,7 +1318,165 @@ contImage
     opacity: 1;
   }
 }
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 900px) and (max-width: 1024px) {
+  .contDiscoveries {
+    width: 100%;
+    padding: 20px 50px;
+    background: #010101;
+  }
+  .contDiscoveries .contDiscoveries_title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .contDiscoveries .lineDis {
+    margin-top: 5px;
+    width: 50px;
+    height: 5px;
+    border: none;
+    background: #ffb300;
+    transition: 0.2s linear;
+  }
+  .contDiscoveries .contDiscoveries_paragraph {
+    margin-top: 25px;
+    color: #adadad;
+  }
+  .contDiscoveries .contDiscoveries_btn {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #ffb300;
+    padding: 8px;
+    border-radius: 40px;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+  .contDiscoveries .contDiscoveries_btn .icon {
+    margin-left: 25px;
+    color: #ffb300;
+    transform: translateX(-50px);
+    transition: 0.1s linear;
+    transition-delay: 0.3s;
+    opacity: 0;
+  }
+  .contDiscoveries .contDiscoveries_btn:hover {
+    width: 200px;
+    height: 60px;
+  }
+  .contDiscoveries .contDiscoveries_btn:hover .icon {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@media (min-width: 770px) and (max-width: 899px) {
+  .contDiscoveries {
+    width: 100%;
+    padding: 20px 50px;
+    background: #010101;
+  }
+  .contDiscoveries .contDiscoveries_title {
+    width: 400px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .contDiscoveries .lineDis {
+    margin-top: 5px;
+    width: 50px;
+    height: 5px;
+    border: none;
+    background: #ffb300;
+    transition: 0.2s linear;
+  }
+  .contDiscoveries .contDiscoveries_paragraph {
+    margin-top: 25px;
+    color: #adadad;
+  }
+  .contDiscoveries .contDiscoveries_btn {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #ffb300;
+    padding: 8px;
+    border-radius: 40px;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+  .contDiscoveries .contDiscoveries_btn .icon {
+    margin-left: 25px;
+    color: #ffb300;
+    transform: translateX(-50px);
+    transition: 0.1s linear;
+    transition-delay: 0.3s;
+    opacity: 0;
+  }
+  .contDiscoveries .contDiscoveries_btn:hover {
+    width: 200px;
+    height: 60px;
+  }
+  .contDiscoveries .contDiscoveries_btn:hover .icon {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .contDiscoveries {
+    width: 100%;
+    padding: 20px;
+    background: #010101;
+  }
+  .contDiscoveries .contDiscoveries_title {
+    width: 350px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .contDiscoveries .lineDis {
+    margin-top: 5px;
+    width: 50px;
+    height: 5px;
+    border: none;
+    background: #ffb300;
+    transition: 0.2s linear;
+  }
+  .contDiscoveries .contDiscoveries_paragraph {
+    margin-top: 25px;
+    color: #adadad;
+  }
+  .contDiscoveries .contDiscoveries_btn {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #ffb300;
+    padding: 8px;
+    border-radius: 40px;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+  .contDiscoveries .contDiscoveries_btn .icon {
+    margin-left: 25px;
+    color: #ffb300;
+    transform: translateX(-50px);
+    transition: 0.1s linear;
+    transition-delay: 0.3s;
+    opacity: 0;
+  }
+  .contDiscoveries .contDiscoveries_btn:hover {
+    width: 200px;
+    height: 60px;
+  }
+  .contDiscoveries .contDiscoveries_btn:hover .icon {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .contDiscoveries {
     width: 100%;
     padding: 50px 15px;
@@ -936,6 +1539,12 @@ contVideo
     padding: 50px 0px;
   }
 }
+@media (min-width: 481px) and (max-width: 640px) {
+  .contVideo {
+    width: 100%;
+    padding: 10px 0px;
+  }
+}
 .contFooter {
   width: 100%;
   padding: 30px 50px;
@@ -993,7 +1602,7 @@ contVideo
   font-weight: 600;
 }
 
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 320px) and (max-width: 640px) {
   .contFooter {
     width: 100%;
     padding: 50px 15px;

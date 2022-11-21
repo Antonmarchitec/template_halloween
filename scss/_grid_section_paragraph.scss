@@ -63,6 +63,34 @@
 
 
 
+@media (min-width:641px)  and (max-width:769px){
+    .contSectionParagraph_cont{
+        width: 100%;
+        padding-top: 40px;
+        padding-right: 50px;
+        padding-left: 0px;
+        background: $color_black;
+        position: relative;
+        z-index: 10;
+        .contSectionParagraph_cont_box{
+            width: 100%;
+            padding: 3px 0px;
+            .iconPara{
+                color: $color_green;
+                width: 25px;
+                font-size: 18px;
+            }
+        
+            .spanVisit{
+                color: $color_grey;
+                font-weight: $font_weight_Light;
+                font-style: oblique;
+            }
+        }
+        
+        
+    }
+}
 
 
 
@@ -70,6 +98,33 @@
 
 
 
+@media (min-width:481px)  and (max-width:640px){
+    .contSectionParagraph_cont{
+        width: 100%;
+        padding:20px;
+        background: $color_black;
+        position: relative;
+        z-index: 10;
+        .contSectionParagraph_cont_box{
+            width: 100%;
+            padding: 3px 0px;
+            .iconPara{
+                color: $color_green;
+                width: 25px;
+                font-size: 16px;
+            }
+        
+            .spanVisit{
+                color: $color_grey;
+                font-weight: $font_weight_Light;
+                font-style: oblique;
+                font-size: 14px;
+            }
+        }
+        
+        
+    }
+}
 
 
 
@@ -77,30 +132,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:320px) and (max-width:423px){
+@media (min-width:320px) and (max-width:480px){
     .contSectionParagraph_cont{
         width: 100%;
         padding: 5px 15px;
         background: transparent;
+
         .contSectionParagraph_cont_box{
             width: 100%;
             padding: 3px 0px;

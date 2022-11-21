@@ -59,7 +59,135 @@
 
 
 
-@media (min-width:320px) and (max-width:423px){
+
+
+
+
+@media (min-width:641px)  and (max-width:899px){
+    .contSectionTime{
+        margin-top:50px;
+        width: 100%;
+        height: 480px;
+        background:transparent;
+        //background:$color_black;
+        position: relative;
+        .contSectionTime_title{
+            width: 500px;
+            font-size: 60px;
+            font-weight: $font_weight_Black;
+            position: absolute;
+            left: 50px;
+            top: 80px;
+            letter-spacing: -2px;
+            line-height: 60px;
+            color: $color_white;
+
+    
+            //ANIMATE CSS
+            //animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+            //animation-duration: 2s; /* don't forget to set a duration! */   
+            
+        }
+    
+    
+        .contSectionTime_time{
+            width: 150px;
+            padding: 5px;
+            position: absolute;
+            bottom: 20px;
+            right: 50px;
+            .contSectionTime_time_text{
+                color: $color_white;
+                font-weight: $font_weight_Light;
+                font-size: 16px;
+                .spFrid{
+                    color: $color_green;
+                }
+            }
+    
+            .contSectionTime_time_contPro{
+                margin-top: 5px;
+                .iconPro{
+                    font-size: 25px;
+                    color: $color_white;
+                }
+                .grados{
+                    font-size: 25px;
+                    color: $color_white;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:481px)  and (max-width:640px){
+    .contSectionTime{
+        margin-top:50px;
+        width: 100%;
+        height: 480px;
+        background:transparent;
+        //background:$color_black;
+        position: relative;
+        .contSectionTime_title{
+            width: 380px;
+            font-size: 60px;
+            font-weight: $font_weight_Black;
+            position: absolute;
+            left: 20px;
+            top: 80px;
+            letter-spacing: -2px;
+            line-height: 60px;
+            color: $color_white;
+
+    
+            //ANIMATE CSS
+            //animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+            //animation-duration: 2s; /* don't forget to set a duration! */   
+            
+        }
+    
+    
+        .contSectionTime_time{
+            width: 150px;
+            padding: 5px;
+            position: absolute;
+            bottom: 20px;
+            right: 50px;
+            .contSectionTime_time_text{
+                color: $color_white;
+                font-weight: $font_weight_Light;
+                font-size: 16px;
+                .spFrid{
+                    color: $color_green;
+                }
+            }
+    
+            .contSectionTime_time_contPro{
+                margin-top: 5px;
+                .iconPro{
+                    font-size: 25px;
+                    color: $color_white;
+                }
+                .grados{
+                    font-size: 25px;
+                    color: $color_white;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:480px){
     .contSectionTime{
         margin-top:initial;
         width: 100%;
@@ -68,7 +196,8 @@
         position: relative;
         .contSectionTime_title{
             width: 100%;
-            font-size: 50px;
+            padding: 0px 10px;
+            font-size: 48px;
             font-weight: $font_weight_Black;
             position: absolute;
             left: 0px;
@@ -76,7 +205,6 @@
             letter-spacing: -2px;
             line-height: 45px;
             color:rgb(255, 255, 255);
-            text-align:  center;
             //ANIMATE CSS
             //animation: backInRight; /* referring directly to the animation's @keyframe declaration */
             //animation-duration: 2s; /* don't forget to set a duration! */   
