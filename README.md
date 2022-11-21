@@ -19,8 +19,7 @@
 - Template Halloween.
 
 ## Descripción del proyecto:
-Landing desarrollada para proyecto Gamer (página de videojuegos) totalmente personalizada desde cero con HTML, CSS, SASS ,JavaScript, PHP y archivos JSON para extracción de datos, cuenta con un menú de navegación, integración a enlaces externos, botones, formulario de contacto con validación direccionado a una cuenta de correo electrónico, botón de desplazamiento de subida y es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.   
-
+Plantilla informativa con una temática de Halloween desarrollada con HTML, CSS y JS. Cuenta con un menú de navegación, botones, video integrado, scrooll personalizado y distintas secciones, es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.
 
 ## Diseño responsivo:
 - Desktop: 1440px
@@ -28,12 +27,15 @@ Landing desarrollada para proyecto Gamer (página de videojuegos) totalmente per
 - Móvil: 320px
 
 ## Vista previa:
+https://antonmarchitec.github.io/template_halloween/
+
 
 ## Frase del día:
-"Cualquiera que tenga iniciativa, será siempre criticado por ir demasiado rápido porque siempre hay alguien que quiere que caigas".
--- Mark Zuckerberg --
+"Que algo no haya salido como hayas querido no significa que sea inútil".
+-- Thomas Edison (Inventor) --
 
 ## Imagen del proyecto.
+![halloween](https://user-images.githubusercontent.com/70084380/202974586-af03bbff-e3fc-4a17-834a-8e9896ec9ef6.jpg)
 
 
 
